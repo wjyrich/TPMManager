@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories=Accessibility;Qt;Utility;
+Exec=tpmmanager
+Name=tpmmanager
+Name[zh_CN]=tpmmanager
+Icon=tpmmanager
+StartupNotify=false
+Terminal=false
+Type=Application
+GenericName=tpmmanager
+Version=1.0

@@ -35,3 +35,11 @@ SOURCES = src/NewPasswordDialog.cxx \
 RESOURCES += ui/resources.qrc
 TEMPLATE = app
 UI_DIR = build
+
+target.path = $$PREFIX/bin
+desktop.files = tpmmanager.desktop
+desktop.path = $$PREFIX/share/applications/
+icons.path = $$PREFIX/share/icons
+icons.files = tpmmanager.png
+
+INSTALLS += target desktop icons
